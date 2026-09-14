@@ -42,7 +42,7 @@ The project will use fixed formulas for the calculated statistics, documented in
 * predicting match results or player performance with machine learning
 * replacing professional systems such as Data Volley
 
-CEV importer are optional and will only be added if the main version is working.
+A CEV importer are optional and will only be added if the main version is working.
 
 ## 4. How we would know it works
 
