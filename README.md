@@ -1,10 +1,10 @@
-Volleyball Statistics Tracker & Match Analyzer
+# Volleyball Statistics Tracker & Match Analyzer
 
-1. The demo
+## 1. The demo
 
 I open the application and select a match from the match list. It shows the final score and the main statistics for both teams, including attack, serve, reception, blocks, points and errors. I select a player and see their individual statistics, including attack efficiency, serve success, reception and points. I then select another match and the application shows how the player's performance has changed between the two matches. I can also import a CSV file with match statistics and generate a summary report from it.
 
-2. The shape
+## 2. The shape
 
 ```text
 in     a CSV file containing match statistics: match, team, player,
@@ -19,9 +19,9 @@ in between   validate and clean the data; calculate statistics such as
              and simple charts
 ```
 
-3. The size
+## 3. The size
 
-First useful version
+**First useful version**
 
 * import a CSV file with volleyball match statistics
 * check that required columns and values are present
@@ -31,7 +31,7 @@ First useful version
 * compare a player's statistics across several matches
 * export the results as a readable report
 
-Not this term
+**Not this term**
 
 * live statistics during a match
 * recording every action while watching a match
@@ -44,14 +44,14 @@ Not this term
 
 I may also add an importer for public match reports, such as CEV match statistics, if the main version is already working. The project should still work without it.
 
-4. How we would know it works
+## 4. How we would know it works
 
 * Given a valid CSV file with one match, the program produces the correct team and player statistics for that match.
 * Given a CSV file with a required column missing, the program reports the name of the missing column instead of producing a report with incorrect results.
 * Given a player with statistics from several matches, the program calculates the correct average and shows the results for each match.
 * Given an impossible value, such as a negative number of attack attempts, the program flags the value instead of accepting it as normal data.
 
-5. What could stop this
+## 5. What could stop this
 
 The main risk is the format of the volleyball statistics. CEV match reports contain many useful statistics, but different sources may use different names or formats for the same information. I will therefore create one CSV format for my project and convert the data to that format before analysing it.
 
