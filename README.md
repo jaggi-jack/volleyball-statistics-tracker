@@ -21,28 +21,26 @@ in between   validate and clean the data; calculate statistics such as
 
 ## 3. The size
 
-**First useful version**
+** First useful version
 
-* import a CSV file with volleyball match statistics
-* check that required columns and values are present
-* calculate attack efficiency, serve success, reception percentage, points, blocks and errors
-* show a summary of one match for both teams
-* show the statistics of an individual player
-* compare a player's statistics across several matches
-* export the results as a readable report
+*import a CSV file with volleyball match statistics
+*check that required columns and values are present
+*calculate attack efficiency, reception percentage, points, blocks and errors
+*show a summary of one match for both teams
+*show the statistics of an individual player
+*compare a player's statistics across several matches
 
-**Not this term**
+** Not this term
 
-* live statistics during a match
-* recording every action while watching a match
-* automatic statistics from match videos
-* player tracking from video
-* a mobile application
-* user accounts and online sharing
-* predicting match results or player performance with machine learning
-* replacing professional systems such as Data Volley
+*live statistics during a match
+*automatic statistics from match videos
+*player tracking from video
+*a mobile application
+*user accounts and online sharing
+*predicting match results or player performance with machine learning
+*replacing professional systems such as Data Volley
 
-I may also add an importer for public match reports, such as CEV match statistics, if the main version is already working. The project should still work without it.
+Charts, report export and a CEV importer are optional and will only be added if the main version is working.
 
 ## 4. How we would know it works
 
