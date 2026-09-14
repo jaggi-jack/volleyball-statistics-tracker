@@ -2,7 +2,7 @@
 
 ## 1. The demo
 
-I open the application and select a match from the match list. It shows the final score and the main statistics for both teams, including attack, serve, reception, blocks, points and errors. I select a player and see their individual statistics, including attack efficiency, serve success, reception and points. I then select another match and the application shows how the player's performance has changed between the two matches. I can also import a CSV file with match statistics and generate a summary report from it.
+I open the application and load match_001.csv. The match screen shows the final score and the main statistics for both teams, including attack, serve, reception, blocks, points and errors. I select a player and see their individual statistics, including attack efficiency, serve success, reception and points. I then select another match and the application shows how the player's performance has changed between the two matches. I can also import a CSV file with match statistics and generate a summary report from it.
 
 ## 2. The shape
 
