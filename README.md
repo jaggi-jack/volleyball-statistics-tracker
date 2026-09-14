@@ -16,7 +16,7 @@ out    a match summary, player statistics, team statistics and
 in between   validate and clean the data; calculate statistics such as
              attack efficiency and reception percentage; group the data
              by match, team and player; display the results in tables
-             and simple charts
+
 ```
 
 The project will use fixed formulas for the calculated statistics, documented in the code and README.
