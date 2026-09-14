@@ -52,14 +52,14 @@ A CEV importer are optional and will only be added if the main version is workin
 
 ## 5. What could stop this
 
-The main risk is the format of the volleyball statistics. Different sources may use different names or formats for the same information. I will therefore create one CSV format for my project and convert the data to that format before analysing it.
+* The main risk is the format of the volleyball statistics. Different sources may use different names or formats for the same information. I will therefore create one CSV format for my project and convert the data to that format before analysing it.
 
-Another risk is getting enough match data. I can use public match reports as examples and create small sample datasets for testing. I will not use personal or private data.
+* Another risk is getting enough match data. I can use public match reports as examples and create small sample datasets for testing. I will not use personal or private data.
 
-The project could also become too large because professional volleyball statistics contain much more information than I need. I will start with serves, receptions, attacks, blocks, points and errors and add more statistics only if the basic version is working.
+* The project could also become too large because professional volleyball statistics contain much more information than I need. I will start with serves, receptions, attacks, blocks, points and errors and add more statistics only if the basic version is working.
 
-A technical risk is the possible CEV importer. The website structure could change or the data might not be easy to extract automatically. For this reason, importing CEV reports is optional and the main application will work with CSV files without an internet connection.
+* A technical risk is the possible CEV importer. The website structure could change or the data might not be easy to extract automatically. For this reason, importing CEV reports is optional and the main application will work with CSV files without an internet connection.
 
-The main goal is to make something I could actually use after a volleyball match: give it the match statistics and get a clear overview of how the team and individual players performed.
+* The main goal is to make something I could actually use after a volleyball match: give it the match statistics and get a clear overview of how the team and individual players performed.
 
 
